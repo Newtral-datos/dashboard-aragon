@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased text-slate-800 bg-slate-50;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      'Helvetica Neue', Arial, sans-serif;
+  }
+
+  /* Mejoras de seleccion */
+  ::selection {
+    background-color: #01f3b3;
+    color: #0f172a;
+  }
+
+  /* Scrollbar personalizada */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-100 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-400;
+  }
+}
+
+@layer components {
+  /* Animaciones suaves para transiciones */
+  .transition-smooth {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  /* Focus rings accesibles */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+    --tw-ring-color: #01f3b3;
+  }
+}
+
+@layer utilities {
+  /* Utilidad para ocultar scrollbar pero mantener scroll */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Color corporativo */
+  .text-corporate {
+    color: #01f3b3;
+  }
+
+  .bg-corporate {
+    background-color: #01f3b3;
+  }
+
+  .border-corporate {
+    border-color: #01f3b3;
+  }
+
+  /* Animacion de pulso suave */
+  .pulse-soft {
+    animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse-soft {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+
+  /* Animacion de entrada */
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out forwards;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Animacion de slide up */
+  .animate-slide-up {
+    animation: slide-up 0.4s ease-out forwards;
+  }
+
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Estilos para el grafico de Recharts */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #e2e8f0;
+}
+
+.recharts-tooltip-wrapper {
+  outline: none;
+}
+
+/* Mejoras para dispositivos tactiles */
+@media (hover: none) {
+  .hover\:brightness-110:active {
+    filter: brightness(1.1);
+  }
+}
+
+/* Asegurar que los SVG no se desborden */
+svg {
+  overflow: visible;
+}
