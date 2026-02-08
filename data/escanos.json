@@ -1,12 +1,12 @@
 {
-  "escrutinio": 0,
-  "ultimaActualizacion": "8 de febrero de 2026 a las 00:00",
+  "escrutinio": 0.01,
+  "ultimaActualizacion": "8 de febrero de 2026 a las 20:05",
   "partidos": [
-    { "nombre": "PP",                  "escanos2025": 0, "escanos2023": 28, "color": "#0557A1", "lado": 2 },
-    { "nombre": "PSOE",                "escanos2025": 0, "escanos2023": 23, "color": "#E10819", "lado": 1 },
-    { "nombre": "VOX",                 "escanos2025": 0, "escanos2023": 7,  "color": "#02C119", "lado": 2 },
+    { "nombre": "PP",                  "escanos2025": 31, "escanos2023": 28, "color": "#0557A1", "lado": 2 },
+    { "nombre": "PSOE",                "escanos2025": 11, "escanos2023": 23, "color": "#E10819", "lado": 1 },
+    { "nombre": "VOX",                 "escanos2025": 5, "escanos2023": 7,  "color": "#02C119", "lado": 2 },
     { "nombre": "EXISTE",              "escanos2025": 0, "escanos2023": 3,  "color": "#028050", "lado": 1 },
-    { "nombre": "CHA",                 "escanos2025": 0, "escanos2023": 3,  "color": "#B39612", "lado": 1 },
+    { "nombre": "CHA",                 "escanos2025": 2, "escanos2023": 3,  "color": "#B39612", "lado": 1 },
     { "nombre": "PODEMOS -AV",         "escanos2025": 0, "escanos2023": 1,  "color": "#8A64E9", "lado": 1 },
     { "nombre": "IU- MOVIMIENTO SUMAR","escanos2025": 0, "escanos2023": 1,  "color": "#E30066", "lado": 1 },
     { "nombre": "PAR",                 "escanos2025": 0, "escanos2023": 1,  "color": "#FEA001", "lado": 2 }
