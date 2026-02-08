@@ -1,10 +1,10 @@
 {
-  "escrutinio": 67.46,
-  "ultimaActualizacion": "8 de febrero de 2026 a las 21:38",
+  "escrutinio": 71.32,
+  "ultimaActualizacion": "8 de febrero de 2026 a las 21:41",
   "partidos": [
     { "nombre": "PP",                  "escanos2025": 26, "escanos2023": 28, "color": "#0557A1", "lado": 2 },
-    { "nombre": "PSOE",                "escanos2025": 19, "escanos2023": 23, "color": "#E10819", "lado": 1 },
-    { "nombre": "VOX",                 "escanos2025": 13, "escanos2023": 7,  "color": "#02C119", "lado": 2 },
+    { "nombre": "PSOE",                "escanos2025": 18, "escanos2023": 23, "color": "#E10819", "lado": 1 },
+    { "nombre": "VOX",                 "escanos2025": 14, "escanos2023": 7,  "color": "#02C119", "lado": 2 },
     { "nombre": "CHA",                 "escanos2025": 6, "escanos2023": 3,  "color": "#B39612", "lado": 1 },
     { "nombre": "EXISTE",              "escanos2025": 2, "escanos2023": 3,  "color": "#028050", "lado": 1 },
     { "nombre": "PAR",                 "escanos2025": 0, "escanos2023": 1,  "color": "#FEA001", "lado": 2 },
