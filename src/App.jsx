@@ -560,7 +560,7 @@ const App = () => {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-6">
 
           {/* Hemiciclo */}
-          <GlassCard title="Distribución de escaños (total 67)" icon={Vote} glow>
+          <GlassCard title="Distribución de escaños" icon={Vote} glow>
             <div className="flex flex-col items-center">
               <svg viewBox="0 0 400 240" className="w-full max-w-lg">
                 {/* Definiciones de gradientes y efectos */}
