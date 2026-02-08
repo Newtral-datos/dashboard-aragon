@@ -1,6 +1,6 @@
 {
   "escrutinio": 0,
-  "ultimaActualizacion": "8 de febrero de 2026 a las 11:00",
+  "ultimaActualizacion": "8 de febrero de 2026 a las 00:00",
   "partidos": [
     { "nombre": "PP",                  "escanos2025": 0, "escanos2023": 28, "color": "#0557A1", "lado": 2 },
     { "nombre": "PSOE",                "escanos2025": 0, "escanos2023": 23, "color": "#E10819", "lado": 1 },
